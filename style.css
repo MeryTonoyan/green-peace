@@ -1,0 +1,272 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width:1200px;
+    margin:0 auto;
+}
+.container-small{
+    max-width:800px;
+    margin:0 auto;
+}
+.text-center{
+    text-align: center;
+}
+.bg-color{
+    background-color: #F2F2F2;
+}
+.p-3{
+    padding:30px;
+}
+.my-3{
+    margin:30px;
+}
+.span-fix{
+    color:greenyellow;
+}
+.text-center{
+    text-align: center;
+}
+.vh-35{
+    height: 35vh;
+}
+.vh-50{
+    height: 50vh;
+}
+.row{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content:space-around;
+    gap:25px 0;
+}
+.section-padding{
+    padding:50px 0;
+    margin-bottom:40px;
+}
+.outline-primary{
+    outline: 1px solid grey;
+
+}
+.align-center{
+    align-items:center;
+}
+
+.title{
+    color:green;
+    font-weight:bold;
+    text-transform:  uppercase;
+    font-size: 50px;
+}
+.first-block {
+    width: 50%;
+}
+.img-card{
+    width:50%;
+}
+.btn{
+    margin:10px;
+    padding:15px;
+    color: white;
+    background-color: green;
+    font-size: 20px;
+    border:  none;
+    border-radius: 5px;
+
+    &:hover{
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+}
+.btny{
+    margin:10px;
+    padding:15px;
+    color: black;
+    background-color: darkgray;
+    font-size: 20px;
+    border:  none;
+    border-radius: 5px;
+
+    &:hover{
+        background-color: #a9a9a9;
+        cursor: pointer;
+    }
+}
+.title-text{
+    font-size:60px;
+    color:green;
+    padding-bottom:15px;
+}
+.text{
+    font-size:20px;
+    margin:auto;
+}
+.text-tip{
+    font-style:  italic;
+    font-size:16px;
+    margin:auto;
+    padding:20px;
+}
+.second-block{
+    width: 30%;
+    padding-top: 178px;
+    margin: 20px auto;
+
+    .btn{
+        margin: 10px;
+        padding: 10px;
+    }
+}
+.code{
+    font-size:25px;
+    margin:auto;
+    color: green;
+    padding:20px;
+}
+.parent {
+    padding-left: 50px;
+    width: 70%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(12, 1fr);
+    gap: 12px;
+
+    p{
+        margin: auto;
+        padding: 10px;
+    }
+}
+.diva{
+    margin:20px;
+
+    text-align: center;
+    color: grey;
+    font-size: 80px;
+}
+.div1 {
+    grid-column: span 3 / span 3;
+    grid-row: span 6 / span 6;
+    grid-column-start: 4;
+    background-color: white;
+
+    .btn{
+        font-size: 17px;
+        padding: 10px;
+        border-radius: 10px;
+        margin: 40px;
+        width: 60%;
+        text-align: center;
+    }
+
+}
+
+.div2 {
+    grid-column: span 3 / span 3;
+    grid-row: span 5 / span 5;
+    grid-column-start: 7;
+    background-color: white;
+}
+
+.div3 {
+    grid-column: span 3/ span 3;
+    grid-row: span 6 / span 6;
+    grid-column-start: 4;
+    grid-row-start: 7;
+    background-color: white;
+}
+
+.div4 {
+    grid-column: span 3 / span 3;
+    grid-row: span 7 / span 7;
+    grid-column-start: 7;
+    grid-row-start: 6;
+    background-color: white;
+}
+.padding{
+    padding:30px;
+}
+
+.clients-list {
+    width: 23%;
+    border-radius: 10px;
+
+    .client-card {
+        padding: 20px;
+        text-align: center;
+
+
+        img {
+            width: 110px;
+            height: 110px;
+            align-items: center;
+            border-radius: 50%;
+            outline: 3px solid green;
+        }
+
+        p {
+            font-size: 15px;
+            margin: 20px;
+            text-align: center;
+            line-height: 1.6;
+        }
+
+        h3{
+            font-size: 25px;
+            color: green;
+        }
+    }
+}
+.bg-color-2 {
+    background-color: #329052;
+}
+.bg-color-3 {
+    background-color: white;
+}
+.section-three{
+    padding:40px;
+}
+.my-map-list{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    margin: 30px;
+}
+.my-map-text {
+    display:flex;
+    align-items: center;
+    gap:8px;
+    margin:10px;
+    font-size: 15px;
+}
+.text-map{
+    color: forestgreen;
+    font-size:25px;
+}
+.my-map{
+    margin-right: 6px;
+}
+.form-control{
+    border: none;
+    background-color: #F2F2F2;
+    color: #818181;
+    margin: 10px;
+    padding: 20px;
+    font-size: 15px;
+    width: 50%;
+}
+.contacts{
+    padding:30px;
+    margin: 90px;
+    background-color: white;
+    border-radius: 5px;
+
+    h2{
+        color:green;
+    }
+
+    .btn{
+        width:50%;
+    }
+}
