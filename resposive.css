@@ -1,0 +1,57 @@
+@media screen and (max-width: 750px) {
+    .block-three {
+        flex-direction: column; /* Տեղադրում է վերև-ներքև */
+        text-align: center;
+    }
+
+    .button {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        align-items: center;
+    }
+
+    .btn, .btny {
+        width: 80%;
+    }
+
+    .client-card {
+        padding: 20px;
+    }
+
+    .img-carder {
+        width: 100%;
+    }
+}
+
+/* Լրացուցիչ հարմարեցում շատ փոքր՝ մինչև 500px */
+@media screen and (max-width: 500px) {
+    h2.title, h3.title-t, h2.tit, h3 {
+        font-size: 1.2rem;
+    }
+
+    .text, .titletit, p {
+        font-size: 14px;
+        line-height: 1.5;
+    }
+
+    input[type="text"] {
+        width: 90%;
+        padding: 10px;
+    }
+
+    .btno {
+        width: 90%;
+        padding: 10px;
+        margin-top: 10px;
+    }
+
+    .row {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .clients-list {
+        width: 100%;
+    }
+}
